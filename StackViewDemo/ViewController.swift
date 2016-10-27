@@ -13,11 +13,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var myStackView: UIStackView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        if UIApplication.shared.statusBarOrientation.isPortrait {
-            myStackView.spacing = CGFloat(30.0)
-        }
-        
     }
 
     override func didReceiveMemoryWarning() {
